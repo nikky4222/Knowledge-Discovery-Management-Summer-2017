@@ -1,4 +1,3 @@
-1)package lda
 
 import java.io.PrintStream
 

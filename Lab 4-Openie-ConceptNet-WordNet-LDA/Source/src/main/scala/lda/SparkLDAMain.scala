@@ -19,7 +19,7 @@ import scopt.OptionParser
   */
 object SparkLDAMain {
 
-  private case class Params (
+  private case class Params(
                              input: Seq[String] = Seq.empty,
                              k: Int = 20,
                              algorithm: String = "em")
@@ -45,6 +45,7 @@ object SparkLDAMain {
     }
 
     parser.parse(args, defaultParams).map { params =>
+      run(params)
     }.getOrElse {
       parser.showUsageAsError
       sys.exit(1)
@@ -52,7 +53,7 @@ object SparkLDAMain {
   }
 
   private def run(params: Params) {
-   // System.setProperty("hadoop.home.dir", "D:\\Mayanka Lenevo F Drive\\winutils")
+    System.setProperty("hadoop.home.dir", "C:\\winutil")
     val conf = new SparkConf().setAppName(s"LDAExample with $params").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
     val sc = new SparkContext(conf)
 
@@ -64,6 +65,10 @@ object SparkLDAMain {
     val (corpus, vocabArray, actualNumTokens) =
       preprocess(sc, params.input)
     corpus.cache()
+    println("--------------------------------------------------------------------")
+    corpus.take(5).foreach(println)
+    println("--------------------------------------------------------------------")
+    vocabArray.take(5).foreach(println)
     val actualCorpusSize = corpus.count()
     val actualVocabSize = vocabArray.length
     val preprocessElapsed = (System.nanoTime() - preprocessStart) / 1e9
@@ -151,16 +156,13 @@ object SparkLDAMain {
     //Reading Stop Words
     val stopWords=sc.textFile("data/stopwords.txt").collect()
     val stopWordsBroadCast=sc.broadcast(stopWords)
-    //System.out.println("broadcast"+stopWordsBroadCast)
-    //val kk=sc.textFile(paths.mkString(","))
-    //kk.saveAsTextFile("kk")
-
 
     val df = sc.textFile(paths.mkString(",")).map(f => {
-      //val lemmatised=CoreNLP.returnLemma(f)
-      val splitString = f.split(" ")
+      val lemmatised=CoreNLP.returnLemma(f)
+      val splitString = lemmatised.split(" ")
       splitString
     })
+
 
     val stopWordRemovedDF=df.map(f=>{
       //Filtered numeric and special characters out
@@ -174,30 +176,23 @@ object SparkLDAMain {
       })
       filteredF
     })
-    //val dfseq1=df.map(_.toSeq)
-    val dfseq=df.map(_.toSeq)
-    System.out.println("seqqqqq")
-dfseq.take(5).foreach(println)
+
+    val dfseq=stopWordRemovedDF.map(_.toSeq)
+    println("df")
     //Creating an object of HashingTF Class
-    val hashingTF = new HashingTF(df.count().toInt)  // VectorSize as the Size of the Vocab
-    System.out.println(hashingTF)
+    val hashingTF = new HashingTF(stopWordRemovedDF.count().toInt)  // VectorSize as the Size of the Vocab
 
     //Creating Term Frequency of the document
     val tf = hashingTF.transform(dfseq)
-    System.out.println("tfffffffffff")
-    tf.take(5).foreach(println)
     tf.cache()
 
     val idf = new IDF().fit(tf)
 
     //Creating Inverse Document Frequency
-    val tf7=tf.zipWithIndex().map(_.swap)
     val tfidf = idf.transform(tf).zipWithIndex().map(_.swap)
-    System.out.println("tfidffffff")
-    tfidf.take(5).foreach(println)
 
-    val dff= df.flatMap(f=>f)
-     val vocab=dff.distinct().collect()
-    (tf7, vocab, dff.count()) // Vector, Vocab, total token count
+    val dff= stopWordRemovedDF.flatMap(f=>f)
+    val vocab=dff.distinct().collect()
+    (tfidf, vocab, dff.count()) // Vector, Vocab, total token count
   }
 }

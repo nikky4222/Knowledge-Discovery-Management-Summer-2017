@@ -24,11 +24,12 @@ object openie {
     val dd=docText.map(f=> {
       val wordnet = new RiWordNet("E:\\WordNet-3.0.tar\\WordNet-3.0\\WordNet-3.0")
       val farr = f.split(" ")
+      System.out.println("welcome to ask me anything")
       System.out.println("Enter the word to find the synonym")
       val input=scala.io.StdIn.readLine()
       getSynoymns(wordnet, input)
     })
-    dd.take(1).foreach(f=>println(f.mkString(" ")))
+    dd.take(1).foreach(f=>println(f.mkString(" "+"\n")))
     val a = openie(docText, sc)
 
 

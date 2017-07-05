@@ -19,9 +19,12 @@ public class conceptNet5 {
 
     try {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      System.out.println("Enter the question to know the relation");
+      System.out.println("Enter the question");
+      System.out.println("Enter the object to know the relationship");
       String s = br.readLine();
-      HttpGet httpGetRequest = new HttpGet("http://conceptnet5.media.mit.edu/data/5.4/search?rel=/r/UsedFor&end=/c/en/"+s+"&limit=10");
+      System.out.println("Also enter the relationship");
+      String s1 = br.readLine();
+      HttpGet httpGetRequest = new HttpGet("http://conceptnet5.media.mit.edu/data/5.4/search?rel=/r/"+s1+"&end=/c/en/"+s+"&limit=10");
       HttpResponse httpResponse = httpClient.execute(httpGetRequest);
       System.out.println("----------------------------------------");
       System.out.println(httpResponse.getStatusLine());
