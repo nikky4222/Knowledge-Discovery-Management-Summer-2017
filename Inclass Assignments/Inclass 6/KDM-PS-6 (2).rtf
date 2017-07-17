@@ -1,0 +1,220 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+{\colortbl ;\red5\green99\blue193;\red0\green0\blue255;}
+{\*\listtable 
+{\list\listhybrid
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'00.;}{\levelnumbers\'01;}\jclisttab\tx720}
+{\listlevel\levelnfc2\leveljc0\levelstartat2{\leveltext\'03(\'01);}{\levelnumbers\'02;}\jclisttab\tx720}\listid1 }
+{\list\listhybrid
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'00.;}{\levelnumbers\'01;}\jclisttab\tx720}
+{\listlevel\levelnfc2\leveljc0\levelstartat1{\leveltext\'03(\'01);}{\levelnumbers\'02;}\jclisttab\tx720}\listid2 }}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+{\*\generator Riched20 10.0.14393}{\*\mmathPr\mnaryLim0\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\nowidctlpar\li1540\f0\fs32 CS5560 Knowledge Discovery and Management\f1\fs24\par
+
+\pard\nowidctlpar\sl-64\slmult0\par
+
+\pard\nowidctlpar\li4060\f0\fs22 Problem Set 6\f1\fs24\par
+
+\pard\nowidctlpar\sl-41\slmult0\par
+
+\pard\nowidctlpar\li3920\f0\fs22 July 10 (T), 2017\f1\fs24\par
+
+\pard\nowidctlpar\sl-326\slmult0\par
+
+\pard\nowidctlpar\f0\fs22 Name :\f1\fs24   \tab Nikitha\tab\tab\tab\tab\tab\tab\tab\f0\fs22 Class ID: 11\f1\fs24\par
+
+\pard\nowidctlpar\sl-326\slmult0\par
+
+\pard\nowidctlpar\ri3000\sl288\slmult1\f0\fs21 References {\cf1\ul{\field{\*\fldinst{HYPERLINK https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/ }}{\fldrslt{https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/}}}}\f1\fs24\par
+
+\pard\nowidctlpar\sl-2\slmult0\par
+
+\pard\nowidctlpar\ri1140\sl312\slmult1 {\f0\fs22{\field{\*\fldinst{HYPERLINK https://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html }}{\fldrslt{https://nlp.stanford.edu/IR-book/html/htmledition/text-classification-and-naive-bayes-1.html\ul0\cf0}}}}\f0\fs22  {\cf1\ul{\field{\*\fldinst{HYPERLINK http://www.nltk.org/book/ch06.html }}{\fldrslt{http://www.nltk.org/book/ch06.html}}}}\f1\fs24\par
+
+\pard\nowidctlpar\sl-200\slmult0\par
+
+\pard\nowidctlpar\sl-302\slmult0\par
+
+\pard 
+{\pntext\f1 I.\tab}{\*\pn\pnlvlbody\pnf1\pnindent720\pnstart9\pnucltr{\pntxta.}}
+\nowidctlpar\fi-720\li1080\ri880\sl324\slmult1\qj\f0\fs22 Consider the problem of classifying the origination point of passenger travel itineraries. Suppose we have the following training set of travel itineraries: \f1\fs24\par
+
+\pard\nowidctlpar\sl-200\slmult0\par
+\par
+\par
+\par
+
+\pard\nowidctlpar\sl-364\slmult0\par
+
+\pard 
+{\pntext\f0 a)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcltr{\pntxta)}}
+\nowidctlpar\fi-360\li720\sl276\slmult1\qj\f0 Assume that we use a Bernoulli (i.e., binary) Naive Bayes model. Compute the following feature probabilities: \par
+
+\pard\nowidctlpar\sl-247\slmult0\par
+
+\pard\nowidctlpar\li1080\ri4540\sl360\slmult1\fs21 i)P(Xfrancisco=true | Class=SFO) \par
+Number of SFO classes in document=2\par
+Number of Francisco in SFO = 2\par
+P(Xfrancisco=true | Class=SFO)\par
+ = (2/2)\par
+ =1\par
+\par
+ii) P(Xlondon=true | Class=SFO)\par
+Number of SFO classes in document=2\par
+Number of London in SFO = 1\par
+
+\pard\nowidctlpar\ri4540\sl360\slmult1  \tab       P(Xlondon=true | Class=SFO)\par
+                  =(1/2) \par
+                  = 0.5 \par
+\par
+\par
+                 iii) P(Xfrancisco=true | Class=JFK)\par
+
+\pard\nowidctlpar\li1080\ri4540\sl360\slmult1 Number of JFK classes in document=1\par
+Number of Francisco in SFO = 1\par
+
+\pard\nowidctlpar\ri4540\sl360\slmult1  \tab       P(Xfrancisco=true | Class=JFK)\par
+                  =(1/1) \par
+                  = 1 \par
+ \fs24\par
+
+\pard\nowidctlpar\sl-156\slmult0\par
+
+\pard\nowidctlpar\fi-360\li720\ri1120\sl240\slmult1\qj b)\tab Assume that we use a multinomial NB model instead. Compute the following probabilities: \par
+
+\pard\nowidctlpar\li1080\ri4800\sl360\slmult1\fs21 i)P(X=francisco | Class=SFO) \par
+
+\pard\nowidctlpar\li1080\ri4540\sl360\slmult1 Number of words in SFO class= 14\par
+Number of Francisco words in SFO class  = 4\par
+
+\pard\nowidctlpar\li1080\ri4800\sl360\slmult1 P(X=francisco | Class=SFO)\par
+= (4/14)\par
+= 0.285\par
+ii)P(X=london | Class=SFO) \par
+
+\pard\nowidctlpar\li1080\ri4540\sl360\slmult1 Number of words in SFO class= 14\par
+Number of London words in SFO class  = 1\par
+
+\pard\nowidctlpar\li1080\ri4800\sl360\slmult1 P(X=london | Class=SFO) \par
+= (1/14)\par
+= 0.07\par
+
+\pard\nowidctlpar\ri4800\sl360\slmult1                   iii)P(X=francisco | Class=JFK) \par
+
+\pard\nowidctlpar\li1080\ri4540\sl360\slmult1 Number of words in JFK class= 8\par
+Number of Francisco words in JFK class  = 1\par
+
+\pard\nowidctlpar\ri4800\sl360\slmult1                    P(X=francisco | Class=JFK)\par
+                   = (1/8)\par
+                   =0.125\fs24\par
+
+\pard\nowidctlpar\sl-187\slmult0\par
+
+\pard\nowidctlpar\fi-360\li720\ri360\sl240\slmult1\qj c)\tab Consider a standard Naive Bayes classifier trained on the training set and applied to a similar test set. How accurate is this classifier for: \par
+
+\pard 
+{\pntext\f0 (i)\tab}{\*\pn\pnlvlbody\pnf0\pnindent720\pnstart1\pnlcrm{\pntxtb(}{\pntxta)}}
+\nowidctlpar\fi-720\li1440\sl228\slmult1\qj\b the Bernoulli model, \par
+
+\pard\nowidctlpar\li1440\ri180\sl264\slmult1\qj\b0 Not very accurate, because it ignores frequency information, which is important in this domain. \b\par
+
+\pard\nowidctlpar\b0\f1\par
+
+\pard 
+{\listtext\f0 (ii)\tab}\jclisttab\tx720\ls1\ilvl1\nowidctlpar\fi-720\li1080\qj\b\f0 the multinomial model? \par
+
+\pard\nowidctlpar\sl-9\slmult0\par
+
+\pard\nowidctlpar\li1080\ri20\sl252\slmult1\b0 More accurate, because it uses frequency information. However, it ignore position information, so doesn\rquote t distinguish between a city name occurring at the beginning/end of the itinerary from one occurring in the middle. \b\par
+
+\pard\nowidctlpar\sl-216\slmult0\par
+
+\pard 
+{\pntext\f0 d)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart4\pnlcltr{\pntxta)}}
+\nowidctlpar\fi-360\li360\qj\b0\fs22 Construct a non-standard feature representation that is 100% accurate for either model. \par
+
+\pard\nowidctlpar\sl-299\slmult0\par
+
+\pard\nowidctlpar\li360\ri40\sl276\slmult1\qj\fs24 To get 100% accurate non-standard feature representation. We should use as a feature the term that occurs in the last position of each document. \fs22\par
+
+\pard\nowidctlpar\sl-200\slmult0\f1\fs24\par
+
+\pard\nowidctlpar\sl-265\slmult0\par
+
+\pard 
+{\pntext\f0 II.\tab}{\*\pn\pnlvlbody\pnf0\pnindent720\pnstart35\pnucltr{\pntxta.}}
+\nowidctlpar\fi-720\li720\ri380\sl276\slmult1\qj\f0 This problem concerns smoothing Na\'efve Bayes classifiers. Consider the following formula for Laplace (add-1) smoothing for Na\'efve Bayes \par
+
+\pard\nowidctlpar\sl-200\slmult0\f1\par
+\par
+\par
+\par
+\par
+\par
+
+\pard\nowidctlpar\sl-232\slmult0\par
+
+\pard 
+{\pntext\f0 a)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcltr{\pntxta)}}
+\nowidctlpar\fi-360\li360\ri60\sl240\slmult1\f0 Suppose we build a Naive Bayes classifier (multinomial or Bernoulli) with no smoothing of the respective P(word | class) probabilities. If a word was unseen in a class, it will thus have a probability of 0. Describe in words the decision procedure of this classifier (emphasizing the effect of the lack of smoothing, and how its decisions will differ from a smoothed Naive Bayes classifier). \par
+
+\pard\nowidctlpar\sl-224\slmult0\par
+
+\pard\nowidctlpar\li360\sl240\slmult1 It will never choose a category unless all words in a document were seen for that category for the training set (unless there is no category for which all words were seen, and then all categories are tied for the classifier). It will rank between classes for which all words were seen similarly to the smoothed classifier (but with possible differences due to the smoothing). \par
+
+\pard\nowidctlpar\sl-224\slmult0\par
+
+\pard\nowidctlpar\fi-360\li360\ri40\sl252\slmult1\qj b)\tab Suppose we take a smoothed multinomial classifier and double the amount of smoothing (e.g., for a variant of \ldblquote add 1 smoothing\rdblquote , add 2 to each count, and add to the denominator 2k, where k is the number of samples). What qualitative effect will this have on decisions of the classifier? \par
+
+\pard\nowidctlpar\sl-220\slmult0\par
+
+\pard\nowidctlpar\li360\ri860\sl276\slmult1\qj It'll be more likely to choose categories for which some/many of the words in the document were unseen. \par
+
+\pard\nowidctlpar\f1\par
+
+\pard 
+{\pntext\f0 III.\tab}{\*\pn\pnlvlbody\pnf0\pnindent720\pnstart61\pnucltr{\pntxta.}}
+\nowidctlpar\fi-720\li720\ri200\sl276\slmult1\qj\f0 An IR system returns 3 relevant documents, and 2 irrelevant documents. There are a total of 8 relevant documents in the collection. \par
+
+\pard\nowidctlpar\sl-189\slmult0\f1\par
+
+\pard 
+{\pntext\f0 a)\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcltr{\pntxta)}}
+\nowidctlpar\fi-360\li360\ri1680\sl240\slmult1\qj\f0 What is the precision of the system on this search, and what is its recall? The precision is given by tp/(tp+fp) = 3/5. \par
+
+\pard\nowidctlpar\sl-1\slmult0\par
+
+\pard\nowidctlpar\li420\qj The recall is given by tp/(tp+fn) = 3/8 \par
+
+\pard\nowidctlpar\sl-268\slmult0\par
+
+\pard\nowidctlpar\fi-360\li360\ri280\sl252\slmult1 b)\tab Instead of using recall/precision for evaluating IR systems, we could use accuracy of classification. Consider a classifier that classifies documents as being either relevant or non-relevant. The accuracy of a classifier that makes c correct decisions and i incorrect decisions is defined as: c/(c+i). \par
+
+\pard\nowidctlpar\sl-220\slmult0\par
+
+\pard 
+{\listtext\f0 (i)\tab}\jclisttab\tx720\ls2\ilvl1\nowidctlpar\fi-720\li1080\ri760\sl276\slmult1\qj Why do the recall and precision measures reflect the utility (i.e., quality or usefulness) of an IR system better than accuracy does? \par
+
+\pard\nowidctlpar\sl-188\slmult0\par
+
+\pard\nowidctlpar\li1080\ri80\sl264\slmult1\fs22 An IR system which always returns no results will have high accuracy for most queries, since the corpus usually contains only a few relevant documents. Documents that are truly relevant are the only ones that will be mistakenly classified as nonrelevant, and thus the accuracy is close to 1. Recall and precision are two different measures that can jointly capture the tradeoff between returning more relevant results and returning fewer irrelevant results. \fs24\par
+
+\pard\nowidctlpar\sl-199\slmult0\par
+
+\pard\nowidctlpar\fi-720\li1080\sl276\slmult1\fs22 (ii)\tab Suppose that we have a collection of 10 documents, and two different boolean retrieval systems A and B. Give an example of two result sets, Aq and Bq, assumed to have been returned by the system in response to a query q, constructed such that Aq has clearly higher utility and a better score for precision than Bq, but such that Aq and Bq have the same scores on accuracy. \par
+
+\pard\nowidctlpar\sl-195\slmult0\f1\fs24\par
+
+\pard\nowidctlpar\li1080\ri120\sl240\slmult1\f0 There are many correct answers. One simple correct answer is Assume document 1 is the only relevant document.\f1\par
+
+\pard\nowidctlpar\sl-1\slmult0\par
+
+\pard\nowidctlpar\li1080\ri6660\sl240\slmult1\f0\fs23 Aq = \{1,2,3\} Bq = \{3\}\f1\fs24\par
+
+\pard\nowidctlpar\sl-1\slmult0\par
+
+\pard\nowidctlpar\li1080\f0 Both Aq and Bq made 2 mistakes, so they have the same accuracy: 80% .\f1\par
+
+\pard\nowidctlpar\li1080\ri300\sl264\slmult1\f0 The precision of Aq is 1/3, the precision for Bq is 0. Since Bq didn\rquote t return any relevant documents, it is of no utility.\f1\par
+}
+ 
