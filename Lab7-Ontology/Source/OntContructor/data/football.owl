@@ -1,0 +1,1269 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/megha/ontologies/2017/7/football#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/megha/ontologies/2017/7/football#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="DATE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GAME"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LOCATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MISC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NUMBER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ORGANIZATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PERSON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TEAM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="San"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="quarterback"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SuperBowl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="eight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="was"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Panthers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="determines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="under"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="American"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SanFrancisco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Broncos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="at"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="isWith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="league"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="plays"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Levi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="played"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="would"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="emphasizes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Arabic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="golden"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="defeated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="50th"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Super"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="features"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="would"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="franchise"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="relatedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="champion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="finished"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1995"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="They"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Arizona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="February"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="realtedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="numerals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="logo"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="Arabic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="Arizona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Broncos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="February"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Levi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Levi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="Panthers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="San"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="Super"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="Super"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="numerals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="played"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="quarterback"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="under"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="would"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="50th"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="at"/>
+        <NamedIndividual IRI="Levi"/>
+        <NamedIndividual IRI="SanFrancisco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="was"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <NamedIndividual IRI="football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="would"/>
+        <NamedIndividual IRI="game"/>
+        <NamedIndividual IRI="SuperBowl"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="defeated"/>
+        <NamedIndividual IRI="American"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">National</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="finished"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="finished"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">regular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="finished"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">season</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Advent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Allhallowtide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Christmas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Christmastide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Christmastime</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eastertide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Golden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Indian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lammastide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">attenuate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">blunt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">break</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">castrate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cripple</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">curry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dampen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">de-energise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Broncos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">de-energize</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="defeated"/>
+        <NamedIndividual IRI="Football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">National</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="Levi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SanFrancisco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="finished"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="finished"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">regular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="finished"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">season</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Advent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Allhallowtide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Christmas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Christmastide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Christmastime</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eastertide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Golden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Indian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lammastide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">attenuate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">blunt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">break</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">castrate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cripple</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">curry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">cut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">dampen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">de-energise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="Panthers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">de-energize</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">American</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wiffle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ballgame</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">baseball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">basketball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">billiard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="defeated"/>
+        <NamedIndividual IRI="They"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Arizona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="They"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Patriots</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="eight"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SuperBowl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="determines"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">champion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">American</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Boswell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Confederate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Darwinian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Francophil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Francophile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gnostic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Graecophile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jacobite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jansenist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Maoist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wiffle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ballgame</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">baseball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">basketball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">best</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">billiard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">defend</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">guarantee</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">prizewinning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="football"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">warrant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isIn"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">accredit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">agency</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">brokerage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">business</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">carrier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">chain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">charter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">claim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">common</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">compulsory</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">conjugal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">recognise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="franchise"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">recognize</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="plays"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">February</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="plays"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Levi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="plays"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SanFrancisco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">accountancy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">accounting</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">acrodont</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">acting</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">activating</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">activation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">actus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">adult</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">aid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">amusement</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ante</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">back</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">brave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">courageous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">crippled</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">double</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gamey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gamy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gimpy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gritty</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">halt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">halting</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">lame</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">parlay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">play</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">punt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">raise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="game"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">see</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="isWith"/>
+        <NamedIndividual IRI="golden"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">various</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="emphasizes"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">anniversary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="emphasizes"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">anniversary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">440</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">440</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">880</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">880</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AARP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AARP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ASEAN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ASEAN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Admission</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">All</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Allhallows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">American</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">American</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">American</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">April</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Arbor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Armed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Association</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cinco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fabian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fabian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Five</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Five</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ally</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ally</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">associate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">associate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">band</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">band</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">club</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">club</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">confederate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">confederate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">conjoin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">conjoin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">consociate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">consociate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">couple</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">couple</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">espouse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">espouse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">federalise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="league"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">federalise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="features"/>
+        <NamedIndividual IRI="logo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Arabic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="features"/>
+        <NamedIndividual IRI="logo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">numerals</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="logo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sharpie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="logo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">logotype</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="at"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="was"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="would"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="at"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="would"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="at"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="would"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="DATE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="GAME"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="LOCATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="MISC"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="NUMBER"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="ORGANIZATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="PERSON"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="TEAM"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="realtedTo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+
